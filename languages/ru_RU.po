@@ -1,0 +1,123 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-13 12:02GMT 2\n"
+"PO-Revision-Date: 2020-03-18 12:10+0200\n"
+"Last-Translator: \n"
+"Language-Team: Wemake\n"
+"Language: he_IL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Eazy Po 0.9.5.3\n"
+": \n"
+
+# ---------------------------------------------------------------
+
+# /inc/admin.php
+msgid "Whatsapp number"
+msgstr "Номер Whatsapp"
+
+# /inc/admin.php
+msgid "Tooltip text"
+msgstr "Текст подсказки"
+
+# /inc/admin.php
+msgid "Avatar"
+msgstr "Логотип"
+
+# /inc/admin.php
+msgid "Popup title"
+msgstr "Заголовок окна"
+
+# /inc/admin.php
+msgid "First message text"
+msgstr "Текст сообщения #1"
+
+# /inc/admin.php
+msgid "Second message text"
+msgstr "Текст сообщения #2"
+
+# /inc/admin.php
+msgid "Button text"
+msgstr "Текст кнопки сообщения"
+
+# /inc/admin.php
+msgid "Show for mobile devices"
+msgstr "Показывать для мобильных устройств"
+
+# /inc/admin.php
+msgid "Save settings"
+msgstr "Сохранить"
+
+# /inc/admin.php
+msgid "You have unsaved changes"
+msgstr "Не все данные сохранены. Подождите несколько секунд и попробуйте снова"
+
+# /inc/admin.php
+msgid "Request error!"
+msgstr "Ошибка запроса!"
+
+# /inc/admin.php
+msgid "Settings successfully changed"
+msgstr "Настройки успешно изменены"
+
+# /inc/admin.php
+msgid "Error. Please try again later."
+msgstr "Ошибка. Пожалуйста, обновите страницу и попробуйте еще раз."
+
+# /inc/admin.php
+msgid "File size error. Maximum file size - 5mb."
+msgstr "Максимальный размер изображения - 5МБ."
+
+# /inc/admin.php
+msgid "Uploading error. Please select other file."
+msgstr "Ошибка загрузки. Пожалуйста выберите другой файл."
+
+# /inc/admin.php
+msgid "Bad file format. Supported formats: jpg, jpeg, png, gif."
+msgstr "Неверный формат файла. Попробуйте: jpg, jpeg, png, gif."
+
+# /inc/admin.php
+msgid "No file selected"
+msgstr "Файл не выбран"
+
+# /inc/admin.php
+msgid "Select"
+msgstr "Выбрать"
+
+# /inc/admin.php
+msgid "Settings"
+msgstr "Настройки"
+
+# ---------------------------------------------------------------
+
+# /inc/frontend.php
+msgid "Briefly unavailable for scheduled maintenance. Check back in a minute."
+msgstr "Сайт временно недоступен. Загляните пожалуйста через минуту."
+
+# /inc/frontend.php
+msgid "Hey, need help? We are here"
+msgstr "Нужна помощь? Мы рядом"
+
+# /inc/frontend.php
+msgid "Help"
+msgstr "Помощь"
+
+# /inc/frontend.php
+msgid "Hey 😊"
+msgstr "Здравствуйте 😊"
+
+# /inc/frontend.php
+msgid "How can we help you?"
+msgstr "Чем мы можем вам помочь?"
+
+# /inc/frontend.php
+msgid "Message"
+msgstr "Написать"

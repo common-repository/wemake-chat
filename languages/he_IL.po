@@ -1,0 +1,123 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-13 12:02GMT 2\n"
+"PO-Revision-Date: 2020-03-18 12:10+0200\n"
+"Last-Translator: \n"
+"Language-Team: Wemake\n"
+"Language: he_IL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Eazy Po 0.9.5.3\n"
+": \n"
+
+# ---------------------------------------------------------------
+
+# /inc/admin.php
+msgid "Whatsapp number"
+msgstr "מספר וואטסאפ"
+
+# /inc/admin.php
+msgid "Tooltip text"
+msgstr "טקסט פתיחה"
+
+# /inc/admin.php
+msgid "Avatar"
+msgstr "לוגו"
+
+# /inc/admin.php
+msgid "Popup title"
+msgstr "כותרת ראשית"
+
+# /inc/admin.php
+msgid "First message text"
+msgstr "שורה ראשונה של טקסט"
+
+# /inc/admin.php
+msgid "Second message text"
+msgstr "שורה שניה של טקסט"
+
+# /inc/admin.php
+msgid "Button text"
+msgstr "טקסט של הכפתור"
+
+# /inc/admin.php
+msgid "Show for mobile devices"
+msgstr "להציג גם במכשירים ניידים"
+
+# /inc/admin.php
+msgid "Save settings"
+msgstr "שמור"
+
+# /inc/admin.php
+msgid "You have unsaved changes"
+msgstr "יש לך שינויים שלא נשמרו"
+
+# /inc/admin.php
+msgid "Request error!"
+msgstr "שגיאה!"
+
+# /inc/admin.php
+msgid "Settings successfully changed"
+msgstr "ההגדרות השתנו בהצלחה"
+
+# /inc/admin.php
+msgid "Error. Please try again later."
+msgstr "שגיאה. בבקשה נסה שוב מאוחר יותר."
+
+# /inc/admin.php
+msgid "File size error. Maximum file size - 5mb."
+msgstr "שגיאת גודל קובץ, גודל קובץ מירבי 5MB."
+
+# /inc/admin.php
+msgid "Uploading error. Please select other file."
+msgstr "שגיאת העלאה, אנא בחר קובץ תקין."
+
+# /inc/admin.php
+msgid "Bad file format. Supported formats: jpg, jpeg, png, gif."
+msgstr "שגיאת פורמט! פורמטים נתמכים: jpg, jpeg, png, gif בלבד."
+
+# /inc/admin.php
+msgid "No file selected"
+msgstr "לא נבחר קובץ"
+
+# /inc/admin.php
+msgid "Select"
+msgstr "בחר לוגו"
+
+# /inc/admin.php
+msgid "Settings"
+msgstr "הגדרות"
+
+# ---------------------------------------------------------------
+
+# /inc/frontend.php
+msgid "Briefly unavailable for scheduled maintenance. Check back in a minute."
+msgstr "מתבצעות עבודות תחזוקה, נסה מאוחר יותר."
+
+# /inc/frontend.php
+msgid "Hey, need help? We are here"
+msgstr "היי, צריך עזרה? אנחנו כאן"
+
+# /inc/frontend.php
+msgid "Help"
+msgstr "עזרה"
+
+# /inc/frontend.php
+msgid "Hey 😊"
+msgstr "היי 😊"
+
+# /inc/frontend.php
+msgid "How can we help you?"
+msgstr "כיצד נוכל לעזור לך?"
+
+# /inc/frontend.php
+msgid "Message"
+msgstr "התחל שיחה"

@@ -1,0 +1,242 @@
+@import mixins
+@import flex
+
+body
+  .wmch-popup
+    &,*
+      line-height: 24px
+      +box-sizing(border-box)
+    &,input,select,textarea,button
+      font-family: "OpenSansHebrew"
+      font-size: 16px
+      font-weight: 200
+      color: #3e3e3e
+      direction: ltr
+      [dir="rtl"] &
+        direction: rtl
+    &:not(.show) .wmch-popup-window,
+    &.show .wmch-popup-bt,
+    &.show .wmch-popup-tooltip
+      visibility: hidden
+      +opacity(0,0)
+      +translate-x(100%)
+  .wmch-popup-tooltip,
+  .wmch-popup-bt,
+  .wmch-popup-window
+    position: fixed
+    z-index: 999
+    bottom: 50px
+    right: 40px
+  .wmch-popup-tooltip
+    direction: rtl
+    margin-bottom: 90px
+    padding: 5px 15px 5px 30px
+    background-color: #fff
+    +box-shadow(5px 5px 15px rgba(0,0,0,18%))
+    +border-radius(5px)
+    +flex-start
+    [dir="rtl"] &
+      padding-right: 30px
+      padding-left: 15px
+    &:not(.show)
+      visibility: hidden
+      +opacity(0,0)
+      +translate-x(100%)
+    &:before
+      content: ""
+      display: block
+      border: 15px solid transparent
+      border-right: 15px solid #fff
+      position: absolute
+      bottom: -12px
+      right: 35px
+    img
+      position: relative
+      &:first-child
+        margin-left: 10px
+  .wmch-popup-bt
+    cursor: pointer
+    width: 64px
+    height: 64px
+    text-align: center
+    background-color: #4ac959
+    font-size: 35px
+    +flex-center
+    +border-radius(50%)
+    +transition(0.3s)
+    &:hover
+      background-color: darken(#4ac959, 7%)
+    &:before
+      font-family: "wmch-icomoon"
+    .wmch-icon-whatsapp
+      .path2:before
+        color: transparent
+      .path3:before
+        color: #fff
+  .wmch-popup-window,
+  .wmch-popup-bt
+    +box-shadow(1px 1px 5px rgba(0, 0, 0, 0.23))
+  .wmch-popup-window,
+  .wmch-popup-tooltip
+    +transition-custom(all 0.2s cubic-bezier(0.4, 0.01, 0.165, 0.99))
+  .wmch-popup-window
+    max-width: 90%
+    width: 365px
+    overflow: hidden
+    border-top: 22px solid #075e54
+    +border-radius(4px)
+  .wmch-popup-head
+    color: #fff
+    height: 54px
+    background-color: #128c7e
+    padding: 0 20px
+    +flex-space-between-center
+  .wmch-popup-devil
+    +flex-center
+    img
+      width: 100%
+      max-width: 44px
+      min-width: 44px
+      height: 44px
+      margin-left: 10px
+      +border-radius(50px)
+      +object-position(center)
+      +object-fit(contain)
+      [dir="rtl"] &
+        margin-right: 10px
+        margin-left: 0
+  .wmch-popup-close
+    cursor: pointer
+    width: 20px
+    height: 20px
+    +flex-center
+    &:hover
+      &:before,&:after
+        background-color: #8bc1bb
+    &:before,
+    &:after
+      content: ""
+      display: block
+      position: absolute
+      width: 1px
+      height: 24px
+      background-color: #fff
+      +transition(0.3s)
+    &:before
+      +rotate(-45deg)
+    &:after
+      +rotate(45deg)
+  .wmch-popup-body
+    padding: 40px 20px 0
+    height: 240px
+    background: url(../img/popup-body.gif) center no-repeat
+    +background-size(cover)
+  .wmch-popup-msg
+    display: inline-block
+    margin-bottom: 10px
+    padding: 10px
+    background-color: #fff
+    font-size: 18px
+    text-shadow: 0 0 1px #757575
+    direction: rtl
+    +border-radius(5px)
+    +inline-flex
+    +flex-align-items(center)
+    >span
+      direction: ltr
+    &.wmch-first
+      position: relative
+      &:before
+        content: ""
+        display: block
+        position: absolute
+        top: 0
+        left: 100%
+        border: 9px solid transparent
+        border-top: 9px solid #fff
+        margin: 0 0 0 -9px
+    &:not(.wmch-first)
+      margin-right: 3px
+    img
+      margin-left: 10px
+  .wmch-popup-bottom
+    color: #fff
+    margin-top: 30px
+    padding: 12px 20px 12px 15px
+    height: 46px
+    background-color: #075e54
+    +flex-space-between-center
+    +border-radius(25px)
+    +transition(0.3s)
+    &:hover
+      background-color: lighten(#075e54, 10%)
+    &:before,&:after
+      display: inline-block
+      font-family: "wmch-icomoon"
+    &:before
+      font-size: 19px
+      @extend .wmch-icon-smile:before
+    &:after
+      font-size: 22px
+      @extend .wmch-icon-send:before
+    >span
+      font-weight: 600
+      width: 100%
+      margin-right: 15px
+      padding: 0 20px
+      border-right: 1px solid #709491
+      text-align: center
+  .wmch-poweredby
+    background-color: #f6f6f6
+    padding: 2px 22px
+    color: #090909
+    font-size: 12px
+    text-align: left
+    a
+      font-weight: 600
+      font-size: 14px
+      margin-left: 5px
+      &,&:hover
+        color: #aaa
+    .wmch-blue
+      color: #5da8dc
+  .wmch-smile
+    margin: 0 5px
+
+@media all and (max-width: 768px)
+  body
+    .wmch-popup.hide-for-mobile
+      display: none
+    .wmch-popup-tooltip,
+    .wmch-popup-bt,
+    .wmch-popup-window
+      right: 5%
+    .wmch-popup-window
+      border-top-width: 8px
+      width: 340px
+      right: 5%
+    .wmch-popup-head
+      height: 44px
+    .wmch-popup-devil img
+      max-width: 32px
+      min-width: 32px
+      height: 32px
+    .wmch-popup-body
+      padding-top: 25px
+      padding-bottom: 10px
+      height: 220px
+    .wmch-popup-msg
+      padding: 4px 15px
+      font-size: 16px
+    .wmch-popup-bottom
+      margin-top: 40px
+    .wmch-popup-bt
+      width: 45px
+      height: 45px
+      font-size: 28px
+    .wmch-popup-tooltip
+      margin-bottom: 70px
+      &:before
+        right: 25px
+
+@import fonts
